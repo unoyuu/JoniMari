@@ -92,7 +92,7 @@ struct ImageView:View {
             .cornerRadius(10)
             .navigationDestination(isPresented: $isTalkPressed){
                 //画面遷移
-//                ChatView()
+                ChatView()
             }
             
         }
