@@ -99,12 +99,6 @@ struct ImageView:View {
     }
 }
 
-struct TalkView:View{
-    var body: some View{
-        Text("chatGPTで話せるようにする")
-    }
-}
-
 #Preview {
     ContentView()
 }
